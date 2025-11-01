@@ -1,0 +1,36 @@
+# Development and testing files
+tests/
+vitest.config.js
+.git/
+.github/
+.vscode/
+.idea/
+*.log
+*.backup
+.DS_Store
+coverage/
+.cache/
+demo.gif
+demo.tape
+
+# Project-specific files (not needed for npm module)
+backlog/
+.claude/
+CLAUDE.md
+CLAUDE_PROJECT.md
+
+# Documentation files for development only
+docs/development/
+WORKFLOW.md
+TASK_SUMMARY.md
+TESTING_STRATEGY.md
+README-DEV.md
+
+# Development-only scripts
+scripts/
+
+# Development-only files
+main.js
+.env
+.gitignore
+.npmrc.example
